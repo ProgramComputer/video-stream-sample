@@ -49,5 +49,5 @@ app.get('/video', function(req, res) {
 })
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
-  console.log('Listening on port ${port}!') //3000
+  console.log('Listening on port ${PORT}!') //3000
 })
