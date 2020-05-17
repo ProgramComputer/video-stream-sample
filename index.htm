@@ -13,7 +13,7 @@
 //<source src="http://localhost:19569/video" type="video/mp4">
    const PORT = process.env.PORT || 3000;
     var x = document.createElement("SOURCE");
-  x.setAttribute("src", "http://localhost:${PORT}/video");
+  x.setAttribute("src", "http://localhost:80/video"); //${PORT}
   x.setAttribute("type", "video/mp4");
   document.getElementById("serversource").appendChild(x);
 
