@@ -5,16 +5,16 @@
   <body>
 
     <video id="videoPlayer" controls muted="muted" autoplay> 
-      <p id="serversource"></p>
+      <source id="serversource"></source>
       <!--<source src="http://narutoview.herokuapp.com/video" type="video/mp4">-->
 
     </video>
-<script>
+
+  </body>
+     <script>
    var x = document.createElement("SOURCE");
  x.setAttribute("src", "http://narutoview.herokuapp.com/video"); //${PORT}
   x.setAttribute("type", "video/mp4");
  document.getElementById("serversource").appendChild(x);
-      </script>
-  </body>
-      
+      </script> 
 </html>
